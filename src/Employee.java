@@ -39,6 +39,13 @@ public class Employee {
         this.departmentId = departmentId;
     }
 
+    public String getEmployeeInfoWithoutDepartment() {
+        return "Employee{" +
+                "id=" + id +
+                ", fullName='" + fullName + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
